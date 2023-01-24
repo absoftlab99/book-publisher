@@ -1,7 +1,14 @@
 .App {
   text-align: center;
 }
-
+.display{
+  min-height: 90vh;
+}
+#search{
+  font-family:Arial, FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
