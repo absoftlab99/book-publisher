@@ -14,3 +14,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.card.image-full:before,hover{
+  opacity: 0;
+}
+.image{
+  height: 400px;
+}
