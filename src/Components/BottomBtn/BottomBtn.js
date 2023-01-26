@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const BottomBtn = () => {
     return (
         <div>
-            <div className="btm-nav lg:hidden bg-primary">
+            <div className="btm-nav lg:hidden bg-primary z-30">
                 <button className='flex'>
                     <Link className='text-lg'><i class="fa-solid fa-store"></i></Link>
                     <label className='text-sm'>Shop</label>
