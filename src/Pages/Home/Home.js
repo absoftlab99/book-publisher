@@ -4,9 +4,14 @@ import Slider from '../../Components/Slider/Slider';
 
 const Home = () => {
     return (
-        <div className='px-6 md:px-12'>
-            <Slider></Slider>
-            <BookCard></BookCard>
+        <div className=''>
+            <div className="lg:px-12">
+                <Slider></Slider>
+            </div>
+            <div className="px-6 lg:px-12">
+                <BookCard></BookCard>
+            </div>
+
         </div>
     );
 };

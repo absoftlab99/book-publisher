@@ -59,7 +59,7 @@ const Header = () => {
             </div>
 
             {/* mobile menu  */}
-            <div className="navbar bg-primary lg:hidden">
+            <div className="navbar bg-primary lg:hidden pb-0">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost btn-circle">
@@ -71,7 +71,7 @@ const Header = () => {
                                     <i class="fa-solid fa-border-all"></i> Menu
                                     <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
                                 </Link>
-                                <ul className="p-2">
+                                <ul className="p-2 bg-base-100">
                                     <li><Link><i class="fa-solid fa-house"></i>Home</Link></li>
                                     <li><Link><i class="fa-solid fa-book"></i>All Books</Link></li>
                                     <li><Link><i class="fa-solid fa-scroll"></i>Send Manuscript</Link></li>
@@ -86,7 +86,7 @@ const Header = () => {
                                     <i class="fa-solid fa-coins"></i> Category
                                     <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
                                 </Link>
-                                <ul className="p-2">
+                                <ul className="p-2 bg-base-100">
                                     <li><Link className='py-1'><i class="fa-solid fa-book"></i> Novel</Link></li>
                                     <li><Link className='py-1'><i class="fa-solid fa-book"></i>Statistics</Link></li>
                                     <li><Link className='py-1'><i class="fa-solid fa-book"></i>Mathematics</Link></li>

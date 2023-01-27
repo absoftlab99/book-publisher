@@ -114,7 +114,7 @@ const BookCard = () => {
                         </div>
                     </div>
                 </div>
-                
+
             </div>
         </div>
     );
